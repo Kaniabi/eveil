@@ -1,0 +1,3 @@
+[submodule "eve-market-strategies"]
+	path = eve-market-strategies
+	url = https://github.com/OrbitalEnterprises/eve-market-strategies.git

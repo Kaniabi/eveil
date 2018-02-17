@@ -1,0 +1,443 @@
+&id155 !!python/object:networkx.classes.graph.Graph
+_adj:
+  Aridia:
+    Delve: &id004 {}
+    Fountain: &id013 {}
+    Genesis: &id016 {}
+    Khanid: &id035 {}
+    Kor-Azor: &id037 {}
+    Solitude: &id089 {}
+  Black Rise:
+    Cloud Ring: &id001 {}
+    Essence: &id008 {}
+    Lonetrek: &id042 {}
+    Placid: &id066 {}
+    The Citadel: &id114 {}
+  Branch:
+    Deklein: &id003 {}
+    Tenal: &id101 {}
+    Venal: &id141 {}
+  Cache:
+    Great Wildlands: &id019 {}
+    Insmother: &id030 {}
+    Outer Passage: &id055 {}
+    The Spire: &id128 {}
+  Catch:
+    Curse: &id002 {}
+    Immensea: &id026 {}
+    Impass: &id028 {}
+    Khanid: &id036 {}
+    Providence: &id069 {}
+    Querious: &id077 {}
+    Stain: &id090 {}
+    Tenerifis: &id103 {}
+  Cloud Ring:
+    Black Rise: *id001
+    Fade: &id010 {}
+    Fountain: &id014 {}
+    Outer Ring: &id057 {}
+    Placid: &id067 {}
+    Pure Blind: &id073 {}
+    Syndicate: &id093 {}
+  Cobalt Edge:
+    Oasa: &id052 {}
+    Outer Passage: &id056 {}
+    Tenal: &id102 {}
+  Curse:
+    Catch: *id002
+    Derelik: &id005 {}
+    Great Wildlands: &id020 {}
+    Scalding Pass: &id080 {}
+  Deklein:
+    Branch: *id003
+    Fade: &id011 {}
+    Venal: &id142 {}
+  Delve:
+    Aridia: *id004
+    Fountain: &id015 {}
+    Period Basis: &id060 {}
+    Querious: &id078 {}
+  Derelik:
+    Curse: *id005
+    Devoid: &id006 {}
+    Great Wildlands: &id021 {}
+    Heimatar: &id024 {}
+    Molden Heath: &id047 {}
+    Providence: &id070 {}
+  Detorid:
+    Immensea: &id027 {}
+    Insmother: &id031 {}
+    Tenerifis: &id104 {}
+    Wicked Creek: &id151 {}
+  Devoid:
+    Derelik: *id006
+    Domain: &id007 {}
+    Heimatar: &id025 {}
+    Providence: &id071 {}
+    The Bleak Lands: &id109 {}
+  Domain:
+    Devoid: *id007
+    Kador: &id033 {}
+    Kor-Azor: &id038 {}
+    Providence: &id072 {}
+    Sinq Laison: &id083 {}
+    Tash-Murkon: &id097 {}
+    The Bleak Lands: &id110 {}
+    The Citadel: &id115 {}
+  Esoteria:
+    Feythabolis: &id012 {}
+    Paragon Soul: &id059 {}
+    Stain: &id091 {}
+  Essence:
+    Black Rise: *id008
+    Everyshore: &id009 {}
+    Genesis: &id017 {}
+    Placid: &id068 {}
+    Sinq Laison: &id084 {}
+    The Citadel: &id116 {}
+    Verge Vendor: &id146 {}
+  Etherium Reach:
+    Great Wildlands: &id022 {}
+    Insmother: &id032 {}
+    Malpais: &id043 {}
+    Molden Heath: &id048 {}
+    Perrigen Falls: &id062 {}
+    The Forge: &id119 {}
+    The Kalevala Expanse: &id125 {}
+    The Spire: &id129 {}
+  Everyshore:
+    Essence: *id009
+    Genesis: &id018 {}
+    Sinq Laison: &id085 {}
+  Fade:
+    Cloud Ring: *id010
+    Deklein: *id011
+    Pure Blind: &id074 {}
+  Feythabolis:
+    Esoteria: *id012
+    Impass: &id029 {}
+    Omist: &id054 {}
+    Tenerifis: &id105 {}
+  Fountain:
+    Aridia: *id013
+    Cloud Ring: *id014
+    Delve: *id015
+    Outer Ring: &id058 {}
+  Geminate:
+    Great Wildlands: &id023 {}
+    Metropolis: &id044 {}
+    The Forge: &id120 {}
+    The Kalevala Expanse: &id126 {}
+    Vale of the Silent: &id137 {}
+  Genesis:
+    Aridia: *id016
+    Essence: *id017
+    Everyshore: *id018
+    Kador: &id034 {}
+    Kor-Azor: &id039 {}
+    Sinq Laison: &id086 {}
+    Verge Vendor: &id147 {}
+  Great Wildlands:
+    Cache: *id019
+    Curse: *id020
+    Derelik: *id021
+    Etherium Reach: *id022
+    Geminate: *id023
+    Metropolis: &id045 {}
+    Molden Heath: &id049 {}
+    Scalding Pass: &id081 {}
+  Heimatar:
+    Derelik: *id024
+    Devoid: *id025
+    Metropolis: &id046 {}
+    Molden Heath: &id050 {}
+    Sinq Laison: &id087 {}
+    The Bleak Lands: &id111 {}
+  Immensea:
+    Catch: *id026
+    Detorid: *id027
+    Tenerifis: &id106 {}
+  Impass:
+    Catch: *id028
+    Feythabolis: *id029
+    Tenerifis: &id107 {}
+  Insmother:
+    Cache: *id030
+    Detorid: *id031
+    Etherium Reach: *id032
+    Scalding Pass: &id082 {}
+    The Spire: &id130 {}
+    Wicked Creek: &id152 {}
+  Kador:
+    Domain: *id033
+    Genesis: *id034
+    Kor-Azor: &id040 {}
+    Tash-Murkon: &id098 {}
+  Khanid:
+    Aridia: *id035
+    Catch: *id036
+    Kor-Azor: &id041 {}
+    Querious: &id079 {}
+    Tash-Murkon: &id099 {}
+  Kor-Azor:
+    Aridia: *id037
+    Domain: *id038
+    Genesis: *id039
+    Kador: *id040
+    Khanid: *id041
+  Lonetrek:
+    Black Rise: *id042
+    Pure Blind: &id075 {}
+    The Citadel: &id117 {}
+    The Forge: &id121 {}
+    Tribute: &id135 {}
+  Malpais:
+    Etherium Reach: *id043
+    Oasa: &id053 {}
+    Perrigen Falls: &id063 {}
+    The Kalevala Expanse: &id127 {}
+    The Spire: &id131 {}
+  Metropolis:
+    Geminate: *id044
+    Great Wildlands: *id045
+    Heimatar: *id046
+    Molden Heath: &id051 {}
+    Sinq Laison: &id088 {}
+    The Bleak Lands: &id112 {}
+    The Forge: &id122 {}
+  Molden Heath:
+    Derelik: *id047
+    Etherium Reach: *id048
+    Great Wildlands: *id049
+    Heimatar: *id050
+    Metropolis: *id051
+  Oasa:
+    Cobalt Edge: *id052
+    Malpais: *id053
+    Perrigen Falls: &id064 {}
+    The Spire: &id132 {}
+  Omist:
+    Feythabolis: *id054
+    Tenerifis: &id108 {}
+  Outer Passage:
+    Cache: *id055
+    Cobalt Edge: *id056
+    Perrigen Falls: &id065 {}
+    The Spire: &id133 {}
+  Outer Ring:
+    Cloud Ring: *id057
+    Fountain: *id058
+    Syndicate: &id094 {}
+  Paragon Soul:
+    Esoteria: *id059
+    Period Basis: &id061 {}
+  Period Basis:
+    Delve: *id060
+    Paragon Soul: *id061
+    Stain: &id092 {}
+  Perrigen Falls:
+    Etherium Reach: *id062
+    Malpais: *id063
+    Oasa: *id064
+    Outer Passage: *id065
+    The Spire: &id134 {}
+    Venal: &id143 {}
+  Placid:
+    Black Rise: *id066
+    Cloud Ring: *id067
+    Essence: *id068
+    Pure Blind: &id076 {}
+    Syndicate: &id095 {}
+    Verge Vendor: &id148 {}
+  Providence:
+    Catch: *id069
+    Derelik: *id070
+    Devoid: *id071
+    Domain: *id072
+    Tash-Murkon: &id100 {}
+  Pure Blind:
+    Cloud Ring: *id073
+    Fade: *id074
+    Lonetrek: *id075
+    Placid: *id076
+    Tribute: &id136 {}
+  Querious:
+    Catch: *id077
+    Delve: *id078
+    Khanid: *id079
+  Scalding Pass:
+    Curse: *id080
+    Great Wildlands: *id081
+    Insmother: *id082
+    Wicked Creek: &id153 {}
+  Sinq Laison:
+    Domain: *id083
+    Essence: *id084
+    Everyshore: *id085
+    Genesis: *id086
+    Heimatar: *id087
+    Metropolis: *id088
+    The Bleak Lands: &id113 {}
+    The Citadel: &id118 {}
+    The Forge: &id123 {}
+  Solitude:
+    Aridia: *id089
+    Syndicate: &id096 {}
+  Stain:
+    Catch: *id090
+    Esoteria: *id091
+    Period Basis: *id092
+  Syndicate:
+    Cloud Ring: *id093
+    Outer Ring: *id094
+    Placid: *id095
+    Solitude: *id096
+    Verge Vendor: &id149 {}
+  Tash-Murkon:
+    Domain: *id097
+    Kador: *id098
+    Khanid: *id099
+    Providence: *id100
+  Tenal:
+    Branch: *id101
+    Cobalt Edge: *id102
+    Venal: &id144 {}
+  Tenerifis:
+    Catch: *id103
+    Detorid: *id104
+    Feythabolis: *id105
+    Immensea: *id106
+    Impass: *id107
+    Omist: *id108
+  The Bleak Lands:
+    Devoid: *id109
+    Domain: *id110
+    Heimatar: *id111
+    Metropolis: *id112
+    Sinq Laison: *id113
+  The Citadel:
+    Black Rise: *id114
+    Domain: *id115
+    Essence: *id116
+    Lonetrek: *id117
+    Sinq Laison: *id118
+    The Forge: &id124 {}
+    Verge Vendor: &id150 {}
+  The Forge:
+    Etherium Reach: *id119
+    Geminate: *id120
+    Lonetrek: *id121
+    Metropolis: *id122
+    Sinq Laison: *id123
+    The Citadel: *id124
+    Vale of the Silent: &id138 {}
+  The Kalevala Expanse:
+    Etherium Reach: *id125
+    Geminate: *id126
+    Malpais: *id127
+    Vale of the Silent: &id139 {}
+  The Spire:
+    Cache: *id128
+    Etherium Reach: *id129
+    Insmother: *id130
+    Malpais: *id131
+    Oasa: *id132
+    Outer Passage: *id133
+    Perrigen Falls: *id134
+  Tribute:
+    Lonetrek: *id135
+    Pure Blind: *id136
+    Vale of the Silent: &id140 {}
+    Venal: &id145 {}
+  Vale of the Silent:
+    Geminate: *id137
+    The Forge: *id138
+    The Kalevala Expanse: *id139
+    Tribute: *id140
+  Venal:
+    Branch: *id141
+    Deklein: *id142
+    Perrigen Falls: *id143
+    Tenal: *id144
+    Tribute: *id145
+  Verge Vendor:
+    Essence: *id146
+    Genesis: *id147
+    Placid: *id148
+    Syndicate: *id149
+    The Citadel: *id150
+  Wicked Creek:
+    Detorid: *id151
+    Insmother: *id152
+    Scalding Pass: *id153
+_node:
+  Aridia: {}
+  Black Rise: {}
+  Branch: {}
+  Cache: {}
+  Catch: {}
+  Cloud Ring: {}
+  Cobalt Edge: {}
+  Curse: {}
+  Deklein: {}
+  Delve: {}
+  Derelik: {}
+  Detorid: {}
+  Devoid: {}
+  Domain: {}
+  Esoteria: {}
+  Essence: {}
+  Etherium Reach: {}
+  Everyshore: {}
+  Fade: {}
+  Feythabolis: {}
+  Fountain: {}
+  Geminate: {}
+  Genesis: {}
+  Great Wildlands: {}
+  Heimatar: {}
+  Immensea: {}
+  Impass: {}
+  Insmother: {}
+  Kador: {}
+  Khanid: {}
+  Kor-Azor: {}
+  Lonetrek: {}
+  Malpais: {}
+  Metropolis: {}
+  Molden Heath: {}
+  Oasa: {}
+  Omist: {}
+  Outer Passage: {}
+  Outer Ring: {}
+  Paragon Soul: {}
+  Period Basis: {}
+  Perrigen Falls: {}
+  Placid: {}
+  Providence: {}
+  Pure Blind: {}
+  Querious: {}
+  Scalding Pass: {}
+  Sinq Laison: {}
+  Solitude: {}
+  Stain: {}
+  Syndicate: {}
+  Tash-Murkon: {}
+  Tenal: {}
+  Tenerifis: {}
+  The Bleak Lands: {}
+  The Citadel: {}
+  The Forge: {}
+  The Kalevala Expanse: {}
+  The Spire: {}
+  Tribute: {}
+  Vale of the Silent: {}
+  Venal: {}
+  Verge Vendor: {}
+  Wicked Creek: {}
+adjlist_inner_dict_factory: &id154 !!python/name:builtins.dict ''
+adjlist_outer_dict_factory: *id154
+edge_attr_dict_factory: *id154
+graph: {}
+node_dict_factory: *id154
+root_graph: *id155
