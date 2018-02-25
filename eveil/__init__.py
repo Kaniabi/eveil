@@ -232,16 +232,15 @@ class MarketHistory(object):
         return result
 
 
-class Marketter(_EveilRoot):
+class Marketeer(_EveilRoot):
 
-    def __init__(self, origin, item):
-        self.__origin = System(origin)
+    def __init__(self, item):
         self.__item = InventoryItem(item)
 
-    def get_data_frame(self, distance=0, sell=True):
+    def get_prices(self, origin, distance=0, sell=True):
         from pandas import DataFrame
 
-        regions = self.__origin.nearby_regions(distance)
+        regions = origin.nearby_regions(distance)
 
         orders = []
         for i_region in regions:
@@ -252,18 +251,24 @@ class Marketter(_EveilRoot):
             ).result()[0]
             orders += r
 
-        result = DataFrame(orders, columns=('location_id', 'price'))
-        result = result.assign(
-          location=[Location(i) for i in result['location_id']],
-          system=[Location(i).system for i in result['location_id']],
+        return DataFrame(orders, columns=('location_id', 'price'))
+
+    def final_format(self, df, origin):
+        result = df.assign(
+          location=[str(Location(i)) for i in df['location_id']],
+          system=[Location(i).system for i in df['location_id']],
         )
         result = result.assign(
           region=[i.region for i in result['system']],
-          jumps=[self.__origin.distance_to(i.system_id) for i in result['system']]
+          jumps=[origin.distance_to(i.system_id) for i in result['system']]
         )
-
         result = result.sort_values(by=['price', 'jumps'])
-
-        result = result.style.format({'price': "{:.2f}"})
-
+        result = result.style.format({'price': "{:,.2f}"})
         return result
+
+
+class ShoppingList(object):
+    """
+    A list of item you have interest to buy. As you walk arround this list checks for good prices and
+    notifies you when to stop to buy something of interest.
+    """
